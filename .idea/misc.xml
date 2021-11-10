@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/drawable/mybutton.xml" value="0.2203125" />
+        <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/add_employee.xml" value="0.25" />
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/add_item.xml" value="0.1" />
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/add_menu_item.xml" value="0.1" />
@@ -16,9 +17,11 @@
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/directeur_menu.xml" value="0.33" />
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/facture.xml" value="0.33" />
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/home.xml" value="0.25" />
+        <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/item_product.xml" value="0.33" />
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/login.xml" value="0.25" />
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/menu.xml" value="0.25" />
         <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/table_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Chadi/AndroidStudioProjects/Resto/app/src/main/res/layout/update_item.xml" value="0.1" />
       </map>
     </option>
   </component>
