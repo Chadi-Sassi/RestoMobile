@@ -4,32 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserActivity">
+    tools:context=".StockActivity">
 
-    <Button
 
-        android:id="@+id/Stockbtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/mybutton"
-
-        android:text="Stock data" />
 
     <Button
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:id="@+id/AddUserbtn"
+        android:id="@+id/AddStockbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/mybutton"
 
-        android:text="Add User"
+        android:text="Add Stock"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="132dp" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/userRv"
+        android:id="@+id/stockRv"
         android:layout_width="409dp"
         android:layout_height="454dp"
         android:layout_marginStart="1dp"
@@ -40,6 +33,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-         />
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
