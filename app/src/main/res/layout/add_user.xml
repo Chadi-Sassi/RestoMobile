@@ -48,14 +48,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:enabled="false"
                 android:text="Last Name" />
 
             <EditText
                 android:id="@+id/UserLastName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:inputType="text" />
 
             <TextView
@@ -70,7 +68,6 @@
                 android:id="@+id/UserRole"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:inputType="text" />
 
             <TextView

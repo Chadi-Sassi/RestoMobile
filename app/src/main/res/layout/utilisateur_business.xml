@@ -48,7 +48,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:enabled="false"
                 android:text="Last Name" />
 
             <EditText
@@ -63,7 +62,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:enabled="false"
                 android:text="Role" />
 
             <EditText

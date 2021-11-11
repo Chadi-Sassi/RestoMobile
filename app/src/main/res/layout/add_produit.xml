@@ -48,28 +48,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:enabled="false"
                 android:text="quantity" />
 
             <EditText
                 android:id="@+id/ProduitQte"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:inputType="text" />
             <TextView
                 android:id="@+id/specialistyLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:enabled="false"
                 android:text="Prix" />
 
             <EditText
                 android:id="@+id/ProduitPrix"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:inputType="text" />
 
             <TextView
@@ -77,14 +73,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
-                android:enabled="false"
                 android:text="quantity" />
 
             <EditText
                 android:id="@+id/ProduitDisponible"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:enabled="false"
                 android:inputType="text" />
 
 

@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     boolean verif = true;
     //private UsersAdapter usersAdapter;
     Utilisateur user = new Utilisateur();
+    Utilisateur userLogin = new Utilisateur();
     Context context;
 
     @Override
@@ -46,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activity);
         database = AppDataBase.getAppDatabase(this);
-        //user.setLastName("Farah"); user.setFirstName("Mohamed");user.setEmail("admin");user.setPassword("admin");user.setRole("ADMIN");
-        //database.userDao().insertOne(user);
+        user.setLastName("Farah"); user.setFirstName("Mohamed");user.setEmail("admin");user.setPassword("admin");user.setRole("ADMIN");
+        database.userDao().insertOne(user);
         txtEmailLogin = (EditText) findViewById(R.id.EmployeeEmail);
         txtPwd = (EditText) findViewById(R.id.EmployeePassword);
 

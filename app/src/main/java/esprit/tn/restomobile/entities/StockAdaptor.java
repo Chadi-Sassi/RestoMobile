@@ -39,7 +39,7 @@ public class StockAdaptor extends RecyclerView.Adapter<StockAdaptor.StockViewHol
     public void onBindViewHolder(@NonNull StockAdaptor.StockViewHolder holder, int position) {
         Stock s = stocks.get(position);
         holder.desc.setText(s.getDescription());
-        holder.capacity.setText(s.getCapacity());
+        holder.capacity.setText(String.valueOf(s.getCapacity()));
       /*  holder.btnUpdate.setOnClickListener(v -> {
             Utilisateur user = new Utilisateur();
             user.setRole(holder.roletxt.getText().toString());

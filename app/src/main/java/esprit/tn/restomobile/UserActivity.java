@@ -28,6 +28,10 @@ public class UserActivity extends AppCompatActivity {
         setContentView(R.layout.utilisateur_main);
         database = AppDataBase.getAppDatabase(this);
         stockBtn = (Button) findViewById(R.id.Stockbtn);
+        stockBtn.setOnClickListener(v -> {
+            Intent in = new Intent(getApplicationContext(), StockActivity.class);
+            startActivity(in);
+        });
         addUserBtn = (Button) findViewById(R.id.AddUserbtn);
         addUserBtn.setOnClickListener(v -> {
             Intent in = new Intent(getApplicationContext(), AddUserActivity.class);
